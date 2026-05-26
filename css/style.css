@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC107;
+}
+
+.encabezado img {
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    margin: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.encabezado img:hover {
+    filter: drop-shadow(1px 1px 1px black);
+    transform: scale(0.9);
+}
