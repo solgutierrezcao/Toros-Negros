@@ -95,7 +95,29 @@
         </div>
       </section>
 
-      <main></main>
+      <main>
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="toastCarrito" class="toast" role="alert">
+        <div class="toast-header">
+            <strong class="me-auto">Toros Negros</strong>
+        </div>
+        <div class="toast-body">
+            🛒 Producto agregado al carrito
+        </div>
+    </div>
+
+</div>
+        <p id="cantidad"></p>
+          <input type="text" id="Filtro" placeholder="Buscar personaje">
+      <select id="ordenar">
+        <option value="">Ordenar por precio</option>
+          <option value="menor">Menor precio</option>
+        <option value="mayor">Mayor precio</option>
+      </select>
+          <p>Favoritos: <span id="fav">0</span></p>
+          <p>Carrito: <span id="carrito">0</span></p>
+    <div class="contenedor"></div>
+    </main>
 
       <footer>
         <div class="info">
@@ -121,5 +143,6 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="Scripts/main.js"></script>
   </body>
 </html>
